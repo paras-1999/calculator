@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+#calculatorSection{
+    height: 100vh;
+    width: 50%;
+    background-color:#2a2927;
+    border: 6px solid #ee2750;
+    box-sizing: border-box;
+    
+}
+#historySection{
+    height: 100vh;
+    width: 50%;
+    background-color:#2a2927;
+    box-sizing: border-box;
+    overflow-x:hidden;
+    text-align: right;
+    padding: 10px;
+}
+#calculator{
+    height:fit-content;
+    width: 70%;
+    border: 6px solid #ee2750;
+    margin: 15% auto;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5px;
+
+}
+input[type="button"]{
+    height: 45px;
+    width: 100px;
+    background-color: #ee2750;
+    color: white;
+    font-family: 'Chango', cursive;
+    border-radius: 15px;
+    margin: 8px;
+    font-size: x-large;
+    
+}
+input[type="text"]{
+    width: 90%;
+    height: 40px;
+    border-radius: 8px;
+    text-align: right;
+    font-family: 'Chango', cursive;
+    color: #2a2927;
+    outline: none;
+    font-size: x-large;
+}
+#eq{
+    color: white;
+    font-size: x-large;
+    font-family: 'Chango', cursive;
+}
+#ans{
+    color:#ee2750;
+    font-size: xx-large;
+    font-family: 'Chango', cursive;
+    margin-top: -20px;
+}

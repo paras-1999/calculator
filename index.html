@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://www.freeiconspng.com/thumbs/calculator-icon/calculator-icon-4.png">
+    <link rel="stylesheet" href="style.css">
+
+    <title>calculator</title>
+</head>
+<body style="margin:0px; display: flex;">
+    <section id="calculatorSection">
+        <div id="calculator">
+            <input type="text" placeholder="Enter the equation" id="calArea">
+            <input type="button" value="9" onclick="display('9')">
+            <input type="button" value="8" onclick="display('8')">
+            <input type="button" value="7" onclick="display('7')">
+            <input type="button" value="6" onclick="display('6')">
+            <input type="button" value="5" onclick="display('5')">
+            <input type="button" value="4" onclick="display('4')">
+            <input type="button" value="3" onclick="display('3')">
+            <input type="button" value="2" onclick="display('2')">
+            <input type="button" value="1" onclick="display('1')">
+            <input type="button" value="+" onclick="display('+')">
+            <input type="button" value="0" onclick="display('0')">
+            <input type="button" value="-" onclick="display('-')">
+            <input type="button" value="*" onclick="display('*')">
+            <input type="button" value="/" onclick="display('/')">
+            <input type="button" value="^" onclick="display('^')">
+            <input type="button" value="="  onclick="result()">
+            <input type="button" value="reset" onclick="reset()">
+
+        </div>
+    </section>
+    <section id="historySection"></section>
+    <script src="working.js"></script>
+    
+</body>
+</html>
